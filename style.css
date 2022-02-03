@@ -1,0 +1,413 @@
+ body{
+     overflow-x: hidden;
+ }
+ .detail{
+     margin: 0.5vw 0 0.5vw 0;
+     width: 100%;
+     padding: 0.5vw 0 0.5vw 0.5vw;
+ }
+ .submit{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    background-color: blue;
+   
+    }
+ input[type=text],.submit,input[type=email]{
+     border: 0.05vw solid grey;
+     border-radius: 0.25vw;
+     color: rgb(85, 82, 82);
+     font-weight: 600;
+ }
+ .first-box{
+     background-color: rgb(22, 22, 63);
+     color: white;
+     
+ }
+ .icon-container{
+   display: flex;
+ }
+ .image{
+     width: 100%;
+     object-fit: contain;
+ }
+ .second-box{
+     padding-left: 14vw;
+     padding-top: 2vw;
+     background-color: rgb(249,250,250);
+     padding-bottom: 2vw;
+ }
+ .number{
+     font-size: 1.5vw;
+     font-weight: 600;
+     
+ }
+ .heading2{
+   display: flex;
+   justify-content: center;
+   padding: 5vw 0 1vw 0;
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 2rem;
+ }
+ .underline{
+     background-color: rgb(255,207,0);
+     width: 4rem;
+     height: 0.2rem;
+ }
+ .mid-container{
+     padding-top: 2vw;
+     padding-bottom: 4vw;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    font-size: 1.25vw;
+ }
+ .image2{
+     border-radius: 0.5vw;
+ }
+ .heading3{
+     display: flex;
+     justify-content: center;
+     padding-top:2vw;
+ }
+ .Underline1{
+     height : 0.3rem;
+     border-top: 0.2vw solid black;
+     border-bottom: 0.2vw solid black
+ }
+ .paragraph{
+     padding-top: 5vw;
+     padding-bottom: 1vw;
+ }
+ .image-box {
+    position: relative;
+    padding-top: 4vw;
+    
+}
+ .image3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+   
+ }
+ .image4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 15vw;
+    left: 10vw;
+    opacity: 1;
+   
+}
+.image-overlap{
+    object-fit: contain;
+}
+.break-class{
+   
+    margin-top: 35vw;
+    margin-left: 6vw;
+}
+.price-card{
+    color: white;
+    background-color: #181b69;
+    border-radius: 1vw;
+}
+.price{
+    position: relative;
+     display: flex;
+     background-color: #181b69;
+     justify-content: center;
+    }
+
+.card-button{
+    border: 0.1vw solid whitesmoke;
+    width: 100%;
+    margin-bottom: 2vw;
+    margin-top: 4vw;
+}
+
+ul{
+    color: white;
+    font-size: 1.8vw;
+    padding-top: 2vw;
+}
+.view-price{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 2vw 0 2vw 0;
+}
+.view-price a{
+    font-size: 2vw;
+    font-weight: 700;
+    color: black;
+    border: none;
+}
+
+@media (max-width: 1200px) {
+    
+    body{
+        display: grid;
+        /* overflow-x: hidden; */
+    }
+
+    .bigbox{
+        width: 100%;
+    }
+    .first-box{
+        padding: 0;
+    }
+
+    .first-box .container h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .first-box .container .row{
+        display: grid;
+    }
+
+    .first-box .container .row .col-sm-1{
+        display: none;
+    }
+
+    .first-box .col-sm-4, .col-sm-5{
+        width: 100%;
+    }
+
+    .first-box .container .row .col-sm-6 input{
+        width: 100%;
+    }
+
+    .first-box .container .row button{
+        width: 33%;
+        margin-left: 35%;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .second-box{
+        width:100%;
+        padding: 0;
+    }
+
+    .second-box .row_box{
+        display: grid;
+    } 
+
+    .second-box .col-sm-4{
+        width : 90%;
+        padding: 20px;
+        margin: 20px;
+        margin-left: 6%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .second-box .col-sm-8 div{
+        text-align: center;
+        font-size: 40px;
+        padding: 15px;
+    }
+    .image{
+        margin-left: 10%;
+        width: 80%;
+        height: auto;
+    }
+
+    .heading2{
+        margin: 0;
+        padding: 0;
+        margin: auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .head_txt{
+        font-size: 1rem;
+        text-align: center;
+        padding: 20px;
+
+    }
+
+    .outer_box{
+        width :100%;
+    }
+    
+    .inner_box{
+        display: grid;
+        width: 100%;
+        padding: 20px;
+    }
+
+     .inner_box .col-sm-4{
+        width: 100%;
+        padding: auto;
+        margin: 15px;
+    }
+
+    .inner_box .col-sm-4 img{
+        margin-left: 10%;
+        width : 80%;
+        height: auto;
+    }
+
+    .text_row{
+        display: grid;
+        padding : 5%;
+    }
+
+    .text_row .col-sm-6{
+        margin: 5%;
+        width: 100%;
+        position: relative;
+        left: -1.5rem;
+    }
+
+    .image-box{
+        position: static;
+        width: 100%;
+    }
+
+    .image-box img{
+        border-radius : 15px;
+        width: 100%;
+        height: auto;
+        position: relative;
+        left: -1rem;
+    }
+
+    .image3{
+        position: static;
+        margin : 15px;
+        width : 100%;
+    }
+
+    .image4{
+        position:static;
+        margin : 15px;
+        width : 100%;
+    }
+
+    .become{
+        position: relative;
+        left: 0.5rem;
+    }
+
+
+    .col-sm-10{
+        display: none;
+    }
+
+    .Underline1{
+        width: 90vh;
+        padding: 0;
+        margin: 0;
+        padding-right: 10%;
+    }
+
+    .part{
+        text-align: justify;
+    }
+
+    .edu{
+        text-align: justify;
+    }
+
+    .pan{
+
+        text-align: justify;
+    }
+
+    .guest{
+        text-align: justify;
+    }
+
+    .mentor{
+        text-align: justify;
+    }
+
+
+}
+
+@media (max-width: 700px) {
+
+    .big_Con{
+        padding-left: 10%;
+    }
+
+    .row_col{
+        display: grid;
+        width: 100%;
+    }
+
+    .sm_Con{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-size: 2rem;
+    }
+
+    .price-card{
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-left: 5%;
+    }
+
+    ul{
+        padding-bottom: 50px;
+        margin-left: 0.5%;
+    }
+
+    ul li{
+        font-size: 1rem;
+    }
+
+    .per{
+        position: relative;
+        top: -3rem;
+        left: 2rem;
+        text-align: end;
+        font-size: 1.5rem;
+    }
+
+    .col-sm-2{
+        text-align: center;
+    }
+
+    .dollar{
+        position: relative;
+        top: 2rem;
+        left: 1rem;
+    }
+
+    .bbox{
+        justify-content: center;
+    }
+
+    .bbox h3{
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .big_Con h2{
+        margin-left: 15%;  
+        margin-bottom: 50%;      
+    }
+
+}
+
+ @media (max-width: 950px) and (min-width: 800px) {
+    
+    .pc2{
+        margin: 0;
+        margin-top: 1.8rem;
+    }
+} 
